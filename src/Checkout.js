@@ -9,7 +9,7 @@ function Checkout() {
     return (
         <div className='checkout'>
             <div className="checkout__left">
-                <img className="checkout__ad" src="https://m.media-amazon.com/images/I/71ukdAsUNvL.jpg" />
+                <img className="checkout__ad" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/AmazonPay/LPAOffers/April/Prime/Store/V2/LPA501_1500x250.jpg" />
                 {/* https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg */}
 
                 <div>

@@ -21,7 +21,7 @@ function Header() {
             <Link to="/">
                 <img className='header__logo'
                     //src="https://img.etimg.com/thumb/msid-59738992,width-640,resizemode-4,imgsize-25499/amazon.jpg"/>
-                    src="https://zeevector.com/wp-content/uploads/Amazon-Logo-White.png" />
+                    src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" />
             </Link>
 
             <div className='header__search'>
@@ -32,7 +32,7 @@ function Header() {
             <div className='header__nav'>
                 <Link to= { !user && '/login'}>
                     <div onClick={handleAuthentication} className='header__options'>
-                        <span className='header__optionLineOne'>Hello,Guest</span>
+                        <span className='header__optionLineOne'>Hello,{!user ? 'Guest': user.email}</span>
                         <span className='header__optionLineTwo'>{user ?'Sign Out':'Sign In'}</span>
                     </div>
                 </Link>
